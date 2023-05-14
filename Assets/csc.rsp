@@ -1,0 +1,7 @@
+-nowarn:649
+-nowarn:618
+-nowarn:414
+-nowarn:1998
+-nowarn:0162
+-r:System.Drawing.dll
+-define:SYSTEM_DRAWING
