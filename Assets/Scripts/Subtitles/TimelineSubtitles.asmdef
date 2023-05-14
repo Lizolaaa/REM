@@ -1,0 +1,7 @@
+﻿{
+  "name": "TimelineSubtitles",
+  "references": [
+    "Unity.Timeline",
+    "Unity.Timeline.Editor", "Unity.TextMeshPro"
+  ]
+}

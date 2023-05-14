@@ -1,0 +1,3 @@
+[submodule "Assets/CDK"]
+	path = Assets/CDK
+	url = https://github.com/Chrisdbhr/CDK.git
