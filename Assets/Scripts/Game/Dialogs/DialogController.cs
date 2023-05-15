@@ -1,15 +1,15 @@
 ﻿using System;
 using CDK;
 using Game.Dialogs;
+using Game.Enums;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Game {
 	public class DialogController : MonoBehaviour {
-
-		[SerializeField] private CSceneField _sceneOnDialogsEnd;
-		[SerializeField] private UnityEvent _onDialogsEnded;
+		
+		[SerializeField] private CSceneField _nextScene;
+		[SerializeField] private NextSceneType _nextSceneType;
 		
 		private Dialog[] AllDialogs;
 
@@ -39,10 +39,20 @@ namespace Game {
 
 
 		private void DialogsEnded() {
-			_onDialogsEnded?.Invoke();
-			if (this._sceneOnDialogsEnd != null) {
-				SceneManager.LoadScene(_sceneOnDialogsEnd);
+			if (_nextSceneType == NextSceneType.none) {
+				SceneManager.LoadScene(_nextScene);
+				return;
 			}
+
+			switch (this._nextSceneType) {
+				case NextSceneType.carToCrime:
+					GameScenesCarTransition.get.LoadCrimeScene(_nextScene);
+					break;
+				case NextSceneType.carToPericia:
+					GameScenesCarTransition.get.LoadPericiaScene(_nextScene);
+					break;
+			}
+			
 		}
 		
 	}
