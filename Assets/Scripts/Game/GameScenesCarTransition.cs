@@ -1,3 +1,4 @@
+using System;
 using CDK;
 using System.Collections;
 using UnityEngine;
@@ -28,6 +29,17 @@ public class GameScenesCarTransition : MonoBehaviour {
     int WaitTime = 5;
 
     #endregion <<---------- Properties and Fields ---------->>
+
+
+
+    
+    #region <<---------- Mono Behaviour ---------->>
+    
+    private void Awake() {
+        DontDestroyOnLoad(this.gameObject);
+    }
+    
+    #endregion <<---------- Mono Behaviour ---------->>
 
     
     
