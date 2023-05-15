@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game - 01.unity
     guid: 692b1a6625355904e8928ddbc780044e
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Investigacao.unity
+    guid: e02413b419fd7b8498e74436b33595d7
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Telefone tocando.unity
+    guid: bd818f7f8719dfd41bbea650f1048b79
+  - enabled: 1
+    path: Assets/Scenes/SceneCarTransition - To crime scene.unity
+    guid: c65bd785a2524ab41865056aabc005e1
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Frente casa.unity
+    guid: e289a53b5e7e1f848b8de0944de84821
   m_configObjects: {}
