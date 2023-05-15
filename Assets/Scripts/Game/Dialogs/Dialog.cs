@@ -9,9 +9,11 @@ namespace Game.Dialogs {
 
 		[SerializeField] private Sprite _speakerBigSprite;
 		[SerializeField] private Sprite _speakerSmallSprite;
+		[SerializeField] private string _speakerName;
 		[SerializeField, Multiline] private string _dialog;
 		
 		[Header("References")]
+		[SerializeField] private TextMeshProUGUI _textSpeakerName;
 		[SerializeField] private TextMeshProUGUI _textDialog;
 		[SerializeField] private Image _speakerBigImage;
 		[SerializeField] private Image _speakerSmallImage;
@@ -20,6 +22,7 @@ namespace Game.Dialogs {
 		
 		private void Awake() {
 			this._textDialog.text = this._dialog;
+			this._textSpeakerName.text = this._speakerName;
 			this._speakerBigImage.gameObject.SetActive(_speakerBigSprite != null);
 			this._speakerBigImage.sprite = this._speakerBigSprite;
 			
