@@ -2,12 +2,14 @@
 using CDK;
 using Game.Dialogs;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Game {
 	public class DialogController : MonoBehaviour {
 
 		[SerializeField] private CSceneField _sceneOnDialogsEnd;
+		[SerializeField] private UnityEvent _onDialogsEnded;
 		
 		private Dialog[] AllDialogs;
 
@@ -37,7 +39,10 @@ namespace Game {
 
 
 		private void DialogsEnded() {
-			SceneManager.LoadScene(_sceneOnDialogsEnd);
+			_onDialogsEnded?.Invoke();
+			if (this._sceneOnDialogsEnd != null) {
+				SceneManager.LoadScene(_sceneOnDialogsEnd);
+			}
 		}
 		
 	}
