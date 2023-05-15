@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneCarTransition - To crime scene.unity
     guid: c65bd785a2524ab41865056aabc005e1
   - enabled: 1
-    path: Assets/Scenes/Level 1 - Novel - Frente casa.unity
+    path: Assets/Scenes/Level 1 - Novel - Telefone.unity
     guid: e289a53b5e7e1f848b8de0944de84821
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Frente Casa.unity
+    guid: f32ec0aa8a202fa45a01fe873bf40ebe
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Nicolas.unity
+    guid: b4d8c7a48416a4f4e91050440bd70d18
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Promotora.unity
+    guid: ce50d7e8c29879b4da59b818a93f7b87
   m_configObjects: {}

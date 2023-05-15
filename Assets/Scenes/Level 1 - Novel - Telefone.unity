@@ -302,6 +302,8 @@ RectTransform:
   m_Children:
   - {fileID: 1949401366}
   - {fileID: 1903644314}
+  - {fileID: 1161011209}
+  - {fileID: 922190202}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -323,9 +325,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextScene:
-    sceneAsset: {fileID: 102900000, guid: b4d8c7a48416a4f4e91050440bd70d18, type: 3}
-    sceneName: Level 1 - Novel - Nicolas
-  _nextSceneType: 0
+    sceneAsset: {fileID: 102900000, guid: f32ec0aa8a202fa45a01fe873bf40ebe, type: 3}
+    sceneName: Level 1 - Novel - Frente Casa
+  _nextSceneType: 1
 --- !u!1 &804161516
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +396,254 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &922190201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 260768920}
+    m_Modifications:
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970510, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Name
+      value: Novel - Dialogo.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146621076618574, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _dialog
+      value: "Entendido policial, pode me enviar a localiza\xE7\xE3o? J\xE1 estou
+        a caminho! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerName
+      value: Diana
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerBigSprite
+      value: 
+      objectReference: {fileID: -1532404174, guid: 65f1c4ea56536d644b5c4d81715c3ede, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerSmallSprite
+      value: 
+      objectReference: {fileID: -1532404174, guid: 65f1c4ea56536d644b5c4d81715c3ede, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+--- !u!224 &922190202 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+  m_PrefabInstance: {fileID: 922190201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1161011208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 260768920}
+    m_Modifications:
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146620714970510, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_Name
+      value: Novel - Dialogo.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 676146621076618574, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _dialog
+      value: "Ol\xE1, detetive. Tenho um caso. O posto da delegacia acabou de receber
+        uma den\xFAncia de uma mulher, de 26 anos, que deu entrada com v\xE1rias
+        fraturas. Ela estava muito confusa, n\xE3o conseguiu explicar o que aconteceu
+        e logo depois acabou desmaiando.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerName
+      value: "\xC2ngela"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerBigSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _speakerSmallSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+--- !u!224 &1161011209 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+  m_PrefabInstance: {fileID: 1161011208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1903644314 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 676146620714970509, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
@@ -457,7 +707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3419891ad27f2349979fd9186cd83e9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8dbcd1054d544754b8756a6a992f2de6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -576,21 +826,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
-      value: "Ol\xE1 Detetive! Aqui \xE9 a casa da vitima onde a agress\xE3o aconteceu,
-        recebemos a autoriza\xE7\xE3o da fam\xEDlia para a investiga\xE7\xE3o, pode
-        entrar! "
+      value: 'Detetive Diana falando!
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerName
-      value: "Policial \xC2ngela"
+      value: Diana
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerBigSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+      objectReference: {fileID: -1532404174, guid: 65f1c4ea56536d644b5c4d81715c3ede, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+      objectReference: {fileID: -1532404174, guid: 65f1c4ea56536d644b5c4d81715c3ede, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
