@@ -39,17 +39,15 @@ namespace Game {
 
 
 		private void DialogsEnded() {
-			if (_nextSceneType == NextSceneType.none) {
-				SceneManager.LoadScene(_nextScene);
-				return;
-			}
-
 			switch (this._nextSceneType) {
 				case NextSceneType.carToCrime:
 					GameScenesCarTransition.get.LoadCrimeScene(_nextScene);
 					break;
 				case NextSceneType.carToPericia:
 					GameScenesCarTransition.get.LoadPericiaScene(_nextScene);
+					break;
+				default:
+					SceneManager.LoadScene(_nextScene);
 					break;
 			}
 			
