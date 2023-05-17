@@ -15,7 +15,7 @@ namespace Game.Quiz {
 		
 		public void Initialize(string text, Action<QuizItem> OnClick) {
 			this.OptionText = text;
-			_text.text = text;
+			this._text.text = text;
 			this.OnClick = OnClick;
 			this.gameObject.SetActive(true);
 		}

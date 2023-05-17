@@ -39,7 +39,7 @@ namespace Game.Quiz {
 		private void SpawnQuestions(QuizQuestions questions) {
 			DeleteQuestions();
 			var item = Instantiate(this.TemplateQuizItem, this.ParentContent);
-			item.OptionText = questions.RightAnswer;
+			item.Initialize(questions.RightAnswer, OnItemClicked);
 			foreach (var option in questions.WrongAnswers) {
 				item = Instantiate(this.TemplateQuizItem, this.ParentContent);
 				item.Initialize(option, OnItemClicked);
