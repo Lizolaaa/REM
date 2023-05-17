@@ -13,13 +13,14 @@ namespace Game {
 		// Gather	
 		public static List<string> CollectedEvidences = new List<string>();
 		private List<EvidenceItem> _allEvidences = new List<EvidenceItem>();
-		[SerializeField] private EvidenceItem _selectedEvidence;
+		private EvidenceItem _selectedEvidence;
 		private int _evidencesGathered;
 		[SerializeField] private TextMeshProUGUI _messageBoxText;
-		[SerializeField] private TextMeshProUGUI _buttonText;
 		[SerializeField] private Button _buttonEvidenceAction;
-		private Action _overrideEvidenceAction;
+		[SerializeField] private Image _buttonText;
+		private Action _additiveEvidenceAction;
 		[SerializeField] private Button _buttonNextScreen;
+		[Space]
 		[SerializeField] private CSceneField _nextScene;
 		
 		
@@ -29,11 +30,7 @@ namespace Game {
 			this._allEvidences.AddRange(this.GetComponentsInChildren<EvidenceItem>(true));
 
 			this._buttonEvidenceAction.OnClickAsObservable().TakeUntilDestroy(this).Subscribe(_ => {
-				if (this._overrideEvidenceAction != null) {
-					this._overrideEvidenceAction?.Invoke();
-					return;
-				}
-
+				this._additiveEvidenceAction?.Invoke();
 				CollectEvidence(this._selectedEvidence);
 			});
 			
@@ -46,13 +43,13 @@ namespace Game {
 			this._selectedEvidence = evidence;
 			this._messageBoxText.text = text;
 			this._buttonText.gameObject.SetActive(!buttonText.CIsNullOrEmpty());
-			this._buttonText.text = buttonText;
-			this._overrideEvidenceAction = overrideAction;
+			this._buttonText.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
+			this._additiveEvidenceAction = overrideAction;
 		}
 
 		private void CollectEvidence(EvidenceItem evidence) {
 			if (!evidence) return;
-			CollectedEvidences.Add(evidence.EvidenceName);
+			CollectedEvidences.Add(evidence.EvidenceName.ToLowerInvariant());
 			evidence.gameObject.SetActive(false);
 			OnEvidenceClicked(null, String.Empty, String.Empty, null);
 			CheckForCompletion();

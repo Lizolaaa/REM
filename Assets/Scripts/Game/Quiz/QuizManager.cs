@@ -9,6 +9,7 @@ using Random = UnityEngine.Random;
 
 namespace Game.Quiz {
 	public class QuizManager : MonoBehaviour {
+		[System.Serializable]
 		public class QuizQuestions {
 			public string RightAnswer;
 			public string[] WrongAnswers;
@@ -31,6 +32,7 @@ namespace Game.Quiz {
 			currentQuestion = this.Questions.First();
 			Questions.Remove(currentQuestion);
 			SpawnQuestions(currentQuestion);
+			TemplateQuizItem.gameObject.SetActive(false);
 		}
 
 
@@ -41,7 +43,6 @@ namespace Game.Quiz {
 			foreach (var option in questions.WrongAnswers) {
 				item = Instantiate(this.TemplateQuizItem, this.ParentContent);
 				item.Initialize(option, OnItemClicked);
-				item.OptionText = option;
 			}
 			ShuffleChildren(this.ParentContent);
 		}

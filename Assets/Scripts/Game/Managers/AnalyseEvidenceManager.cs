@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Linq;
+using CDK;
+using UniRx;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 namespace Game {
 	public class AnalyseEvidenceManager : MonoBehaviour {
 		
 		private int _evidencesToClick;
-		private UnityEvent _completed;
+		[SerializeField] private Button _buttonFinish;
+		[SerializeField] private CSceneField _nextScene;
+		[SerializeField] private UnityEvent _completed;
+
 		
 		private void Awake() {
 			var allPossibleEvidences = this.GetComponentsInChildren<TableEvidenceItem>();
@@ -15,12 +21,16 @@ namespace Game {
 				ev.gameObject.SetActive(false);
 			}
 
-			var collectedEvidences = allPossibleEvidences.Where(e => InvestigationManager.CollectedEvidences.Contains(e.EvidenceName));
+			var collectedEvidences = allPossibleEvidences.Where(e => InvestigationManager.CollectedEvidences.Contains(e.EvidenceName.ToLowerInvariant()));
 			foreach (var ev in collectedEvidences) {
 				ev.Initialize(this, OnClickEvidence);
 			}
 
 			this._evidencesToClick = collectedEvidences.Count();
+			
+			this._buttonFinish.OnClickAsObservable().TakeUntilDestroy(this).Subscribe(_ => {
+				GameScenesCarTransition.get.LoadPericiaScene(_nextScene);
+			});
 		}
 
 		private void OnClickEvidence() {
