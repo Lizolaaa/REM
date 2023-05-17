@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cf15bddbcb90484babb7a1cad7a26fd
+guid: 9b52919c50ac44840b815284a3a34aed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,18 +102,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pol ANGELA_0
+      name: sala de estar mini celular_2
       rect:
         serializedVersion: 2
-        x: 687
-        y: 0
-        width: 573
-        height: 1053
+        x: 460
+        y: 107
+        width: 61
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa2b1f7186a23d147bc3667ebcff2f0a
-      internalID: -832512365
+      spriteID: 5ea63774c67c66c44804c92c5eb39e6f
+      internalID: 563328876
       vertices: []
       indices: 
       edges: []
@@ -160,7 +148,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pol ANGELA_0: -832512365
+      sala de estar mini celular_0: 94879006
+      sala de estar mini celular_1: -2020872046
+      sala de estar mini celular_2: 563328876
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cf15bddbcb90484babb7a1cad7a26fd
+guid: 8b3efde47c34b344fa7d771474cae478
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,18 +102,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pol ANGELA_0
+      name: porta banheiro_0
       rect:
         serializedVersion: 2
-        x: 687
+        x: 1365
         y: 0
-        width: 573
-        height: 1053
+        width: 376
+        height: 1060
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa2b1f7186a23d147bc3667ebcff2f0a
-      internalID: -832512365
+      spriteID: 3482fb675dbd06b49b3961b58f8ad7e8
+      internalID: 36004335
       vertices: []
       indices: 
       edges: []
@@ -160,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pol ANGELA_0: -832512365
+      porta banheiro_0: 36004335
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
