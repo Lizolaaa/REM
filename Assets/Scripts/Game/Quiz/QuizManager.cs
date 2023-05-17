@@ -63,6 +63,7 @@ namespace Game.Quiz {
 				return;
 			}
 			Questions.Remove(currentQuestion);
+			SpawnQuestions(currentQuestion);
 		}
 
 		void CheckResult() {
