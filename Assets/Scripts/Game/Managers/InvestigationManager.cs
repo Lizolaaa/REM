@@ -50,7 +50,7 @@ namespace Game {
 		private void CollectEvidence(EvidenceItem evidence) {
 			if (!evidence) return;
 			CollectedEvidences.Add(evidence.EvidenceName.ToLowerInvariant());
-			evidence.gameObject.SetActive(false);
+			evidence.gameObject.CDestroy();
 			OnEvidenceClicked(null, String.Empty, String.Empty, null);
 			CheckForCompletion();
 		}
