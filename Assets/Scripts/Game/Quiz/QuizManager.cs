@@ -76,9 +76,11 @@ namespace Game.Quiz {
 			}
 
 			if (isRight) {
+				Debug.Log("Quiz result: Is right");
 				this._onRight?.Invoke();
 			}
 			else {
+				Debug.Log("Quiz result: Is wrong");
 				this._onWrong?.Invoke();
 			}
 		}
