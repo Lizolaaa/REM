@@ -15,7 +15,6 @@ public class GameScenesCarTransition : MonoBehaviour {
         }
     }
     private static GameScenesCarTransition _instance;
-    
 
     #endregion <<---------- Singleton ---------->>
 
