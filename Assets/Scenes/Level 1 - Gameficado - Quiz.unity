@@ -237,8 +237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad:
-    sceneAsset: {fileID: 0}
-    sceneName: 
+    sceneAsset: {fileID: 102900000, guid: e83cb03032367e14c9f8017bc03dd678, type: 3}
+    sceneName: Level 1 - Novel - Promotora Errou
   loadIfAlreadyLoaded: 0
   loadSceneMode: 0
   enableSceneOnLoad: 1
@@ -429,13 +429,13 @@ MonoBehaviour:
   _onRight:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1882676377}
+        m_TargetAssemblyTypeName: CDK.CSceneLoader, CDK
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -443,7 +443,19 @@ MonoBehaviour:
         m_CallState: 2
   _onWrong:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 179545022}
+        m_TargetAssemblyTypeName: CDK.CSceneLoader, CDK
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &357899123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,8 +1663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad:
-    sceneAsset: {fileID: 0}
-    sceneName: 
+    sceneAsset: {fileID: 102900000, guid: 5d3cedf0793cd5d4da96868596f5f3ee, type: 3}
+    sceneName: Level 1 - Novel - Promotora Acertou
   loadIfAlreadyLoaded: 0
   loadSceneMode: 0
   enableSceneOnLoad: 1

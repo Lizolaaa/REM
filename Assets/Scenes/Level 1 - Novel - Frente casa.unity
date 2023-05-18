@@ -576,7 +576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
-      value: "Ol\xE1 Detetive! Aqui \xE9 a casa da vitima onde a agress\xE3o aconteceu,
+      value: "Ol\xE1 Detetive! Aqui \xE9 a casa da v\xEDtima onde a agress\xE3o aconteceu,
         recebemos a autoriza\xE7\xE3o da fam\xEDlia para a investiga\xE7\xE3o, pode
         entrar! "
       objectReference: {fileID: 0}

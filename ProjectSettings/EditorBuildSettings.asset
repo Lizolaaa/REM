@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1 - Gameficado - Quiz.unity
     guid: d1013457c1b428c4893573102a48ef05
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Preso.unity
+    guid: 0ac46526cbe2a1c44b94fb7514b3e5c6
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Promotora Acertou.unity
+    guid: 5d3cedf0793cd5d4da96868596f5f3ee
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Novel - Promotora Errou.unity
+    guid: e83cb03032367e14c9f8017bc03dd678
   m_configObjects: {}

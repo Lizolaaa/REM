@@ -572,7 +572,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Sim, coletei tudo que pude. Acabei de conversar com o perito Nicolas.
-        As anal\xEDses trouxeram resultados bem interessantes. D\xEA uma olhada."
+        As an\xE1lises trouxeram resultados bem interessantes. D\xEA uma olhada."
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerName
@@ -1024,7 +1024,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Perfeito, vejo que tem quase tudo aqui, \xF3timo trabalho detetive.
-        Mas vejo que falta o relat\xF3rio... Consegue preenche-lo? "
+        Mas vejo que falta o relat\xF3rio... Consegue preench\xEA-lo? "
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerName
@@ -1771,7 +1771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
-      value: "Bom dia Diana! Tudo \xF3timo por aqui! \nconseguiu todos as provas?"
+      value: "Bom dia Diana! Tudo \xF3timo por aqui! \nconseguiu todas as provas?"
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerName
