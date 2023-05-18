@@ -323,8 +323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextScene:
-    sceneAsset: {fileID: 102900000, guid: b4d8c7a48416a4f4e91050440bd70d18, type: 3}
-    sceneName: Level 1 - Novel - Nicolas
+    sceneAsset: {fileID: 102900000, guid: 7c82b61f06df41d449477e44110b7c52, type: 3}
+    sceneName: Level 1 - Gameficado - Investigacao
   _nextSceneType: 0
 --- !u!1 &804161516
 GameObject:
@@ -587,10 +587,10 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerBigSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+      objectReference: {fileID: -832512365, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
+      objectReference: {fileID: -832512365, guid: 0cf15bddbcb90484babb7a1cad7a26fd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}

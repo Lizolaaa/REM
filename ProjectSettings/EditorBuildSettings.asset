@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Level 1 - Intro Cutscene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 692b1a6625355904e8928ddbc780044e
   - enabled: 1
     path: Assets/Scenes/SceneCarTransition - To crime scene.unity
     guid: c65bd785a2524ab41865056aabc005e1
-  - enabled: 1
-    path: Assets/Scenes/Level 1 - Intro Cutscene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level 1 - Investigacao.unity
     guid: e02413b419fd7b8498e74436b33595d7
@@ -30,11 +30,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 - Novel - Nicolas.unity
     guid: b4d8c7a48416a4f4e91050440bd70d18
   - enabled: 1
+    path: Assets/Scenes/SceneCarTransition - To pericia scene.unity
+    guid: a39a7b5f58819394e858678b065dfe00
+  - enabled: 1
     path: Assets/Scenes/Level 1 - Novel - Promotora.unity
     guid: ce50d7e8c29879b4da59b818a93f7b87
   - enabled: 1
     path: Assets/Scenes/Level 1 - Gameficado - Analise das evidencias.unity
     guid: 4719aa44d7dcb03448138d22ce6dea46
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Resultado das analises.unity
+    guid: 985d02582448b8a45802e8eebe5caad6
   - enabled: 1
     path: Assets/Scenes/Level 1 - Gameficado - Investigacao.unity
     guid: 7c82b61f06df41d449477e44110b7c52

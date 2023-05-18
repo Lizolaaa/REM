@@ -120,13 +120,13 @@ TextureImporter:
       name: "rem\xE9dios_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1493
-        height: 971
+        x: 400
+        y: 155
+        width: 1520
+        height: 925
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 394, y: 160, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 432, w: 107}
       outline: []
       physicsShape: []
       tessellationDetail: 0

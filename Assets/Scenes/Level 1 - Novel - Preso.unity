@@ -679,8 +679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad:
-    sceneAsset: {fileID: 102900000, guid: 692b1a6625355904e8928ddbc780044e, type: 3}
-    sceneName: Menu
+    sceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
+    sceneName: Level 1 - Intro Cutscene
   loadIfAlreadyLoaded: 0
   loadSceneMode: 0
   enableSceneOnLoad: 1
