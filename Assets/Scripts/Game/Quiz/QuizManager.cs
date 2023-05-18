@@ -68,11 +68,11 @@ namespace Game.Quiz {
 
 		void CheckResult() {
 			bool isRight = true;
+			var asnwerToCompare = Answers.Select(a => a.ToLowerInvariant()).ToArray();
 			foreach (var qq in this.Questions) {
-				if (!Answers.Contains(qq.RightAnswer)) {
-					isRight = false;
-					break;
-				}
+				if (asnwerToCompare.Contains(qq.RightAnswer.ToLowerInvariant())) continue; 
+				isRight = false;
+				break;
 			}
 
 			if (isRight) {
