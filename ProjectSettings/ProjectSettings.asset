@@ -406,7 +406,10 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    BACKGROUND: 000000
+    OPTIMIZE_FOR_PIXEL_ART: false
+    SCALE_TO_FIT: true
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -659,15 +662,15 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Minimal
+  webGLTemplate: PROJECT:BetterMinimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  webGLPowerPreference: 2
+  webGLPowerPreference: 0
   scriptingDefineSymbols:
     Android: TextMeshPro;AMPLIFY_SHADER_EDITOR;REWIRED_UNITY_INPUT_OVERRIDE_DISABLE_LOCATION_SERVICE;TEXTMESHPRO_MARKER;TERRAINPACKAGE_EXIST;LUDIQ_CHRONOS;REWIRED_XBOXONE_DISABLE_VIBRATION;LINQ-to-GameObject;EasyButtons;DOTween;UnityAddressables;UniTask;Rewired;Newtonsoft_Json_for_Unity;UnityLocalization;CROSS_PLATFORM_INPUT;MOBILE_INPUT;DISABLESTEAMWORKS
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_EXPERIMENTAL_FEATURES
