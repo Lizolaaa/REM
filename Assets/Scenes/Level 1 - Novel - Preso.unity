@@ -216,12 +216,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 260768920}
-  - component: {fileID: 260768921}
   - component: {fileID: 260768919}
   - component: {fileID: 260768918}
   - component: {fileID: 260768917}
   m_Layer: 5
-  m_Name: Canvas - Dialogs Controller
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,29 +304,13 @@ RectTransform:
   - {fileID: 1781657895}
   - {fileID: 462668384}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &260768921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260768916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f511a107789a4ad89f8aa96fc6c88fe8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _nextScene:
-    sceneAsset: {fileID: 102900000, guid: b4d8c7a48416a4f4e91050440bd70d18, type: 3}
-    sceneName: Level 1 - Novel - Nicolas
-  _nextSceneType: 0
 --- !u!1 &277562497
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,13 +531,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: 692b1a6625355904e8928ddbc780044e, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 852364076}
+        m_TargetAssemblyTypeName: CDK.CSceneLoader, CDK
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -665,6 +648,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &852364075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852364077}
+  - component: {fileID: 852364076}
+  m_Layer: 0
+  m_Name: Scene Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &852364076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852364075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45ea32332b043a3b9ca78aa7fd9ec72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad:
+    sceneAsset: {fileID: 102900000, guid: 692b1a6625355904e8928ddbc780044e, type: 3}
+    sceneName: Menu
+  loadIfAlreadyLoaded: 0
+  loadSceneMode: 0
+  enableSceneOnLoad: 1
+  setAsActive: 1
+  unloadThisSceneOnComplete: 0
+  SceneLoadedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  sceneEnabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &852364077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852364075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 312, y: 175.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928774693
 GameObject:

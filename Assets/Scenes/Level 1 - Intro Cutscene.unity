@@ -356,7 +356,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Sem a m\xE3e e com um pai preso, restou apenas um destino para uma crian\xE7a
     como eu: Fui levada a um Orfanato.\n\n Estudei por anos e prestei concurso. Hoje
-    sou policial detetive, perita em casos de viol\xEAncia conta a mulher."
+    sou policial detetive, perita em casos de viol\xEAncia contra a mulher."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2058,7 +2058,7 @@ MonoBehaviour:
     h\xE1 cerca de 25 anos atr\xE1s, eu vivi tudo isso na minha pele."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -4118184781521128697, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

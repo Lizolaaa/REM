@@ -17,6 +17,7 @@ namespace Game.Quiz {
 		}
 
 		public List<QuizQuestions> Questions = new List<QuizQuestions>();
+		private QuizQuestions[] _initialQuestions;
 		private List<string> Answers = new List<string>();
 		public Transform ParentContent;
 		public QuizItem TemplateQuizItem;
@@ -29,6 +30,7 @@ namespace Game.Quiz {
 
 
 		private void Awake() {
+			_initialQuestions = this.Questions.ToArray();
 			currentQuestion = this.Questions.First();
 			Questions.Remove(currentQuestion);
 			SpawnQuestions(currentQuestion);
@@ -68,9 +70,16 @@ namespace Game.Quiz {
 
 		void CheckResult() {
 			bool isRight = true;
-			var asnwerToCompare = Answers.Select(a => a.ToLowerInvariant()).ToArray();
-			foreach (var qq in this.Questions) {
-				if (asnwerToCompare.Contains(qq.RightAnswer.ToLowerInvariant())) continue; 
+			
+			var answerToCompare = Answers.Select(a => a.ToLowerInvariant().Trim()).ToArray();
+			var rightAnswers = _initialQuestions.Select(q => q.RightAnswer.ToLowerInvariant().Trim()).ToArray();
+			
+			Debug.Log($"User Answers are: {string.Join(", ", answerToCompare)}");
+			Debug.Log($"Quiz Right answers are: {string.Join(", ", rightAnswers)}");
+
+			foreach (var answer in answerToCompare) {
+				if (rightAnswers.Contains(answer)) continue;
+				Debug.Log($"Answer '{answer}' is wrong.");
 				isRight = false;
 				break;
 			}
