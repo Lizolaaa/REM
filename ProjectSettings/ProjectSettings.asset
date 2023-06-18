@@ -672,9 +672,9 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 0
   scriptingDefineSymbols:
-    Android: TextMeshPro;AMPLIFY_SHADER_EDITOR;REWIRED_UNITY_INPUT_OVERRIDE_DISABLE_LOCATION_SERVICE;TEXTMESHPRO_MARKER;TERRAINPACKAGE_EXIST;LUDIQ_CHRONOS;REWIRED_XBOXONE_DISABLE_VIBRATION;LINQ-to-GameObject;EasyButtons;DOTween;UnityAddressables;UniTask;Rewired;Newtonsoft_Json_for_Unity;UnityLocalization;CROSS_PLATFORM_INPUT;MOBILE_INPUT;DISABLESTEAMWORKS
-    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_EXPERIMENTAL_FEATURES
-    Standalone: BUILD_TYPE_EARLYACCESS;BUILD_PLATFORM_PC;BUILD_ARCH_WINDOWSX64;TextMeshPro;AMPLIFY_SHADER_EDITOR;REWIRED_UNITY_INPUT_OVERRIDE_DISABLE_LOCATION_SERVICE;TEXTMESHPRO_MARKER;TERRAINPACKAGE_EXIST;LINQ-to-GameObject;EasyButtons;DOTWEEN;UnityAddressables;UniTask;Rewired;Newtonsoft_Json_for_Unity;CROSS_PLATFORM_INPUT;DISABLESTEAMWORKS
+    Android: DISABLESTEAMWORKS;TextMeshPro;EasyButtons;DOTWEEN;Newtonsoft_Json_for_Unity
+    EmbeddedLinux: DISABLESTEAMWORKS;TextMeshPro;EasyButtons;DOTWEEN;Newtonsoft_Json_for_Unity
+    Standalone: DISABLESTEAMWORKS;TextMeshPro;EasyButtons;DOTWEEN;Newtonsoft_Json_for_Unity
     WebGL: DISABLESTEAMWORKS;TextMeshPro;EasyButtons;DOTWEEN;Newtonsoft_Json_for_Unity
   additionalCompilerArguments: {}
   platformArchitecture: {}
