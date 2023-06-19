@@ -52,6 +52,7 @@ public class GameScenesCarTransition : MonoBehaviour {
     private IEnumerator WaitThenLoadScene(string mensagem, CSceneField nextScene) {
         if (mensagem.CIsNotNullOrWhitespace()) {
             SceneManager.LoadScene(CarTransitionSceneName, LoadSceneMode.Single);
+            yield return null;
             var txt = GameObject.FindObjectsOfType<TextMeshProUGUI>().First(t => t.name == "Text - A caminho");
             txt.text = mensagem;
             yield return new WaitForSeconds(WaitTime);
