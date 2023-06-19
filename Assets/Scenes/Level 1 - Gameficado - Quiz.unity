@@ -415,7 +415,7 @@ MonoBehaviour:
   - RightAnswer: Medida Protetiva
     WrongAnswers:
     - Porrete
-    - "L\xE2mapada Quebrada"
+    - "L\xE2mpada Quebrada"
     - "L\xEDquido Estranho"
     TargetTMP: {fileID: 450043703}
   - RightAnswer: "Analg\xE9sicos e Bilhete"

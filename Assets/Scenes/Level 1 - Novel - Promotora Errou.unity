@@ -594,6 +594,6 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: cbd7eb696c4fa9743880d56251da9fbf, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}

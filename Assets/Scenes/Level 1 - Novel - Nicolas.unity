@@ -510,7 +510,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8d5b08cd277e97b42a1df60998bfc363, type: 3}
+      objectReference: {fileID: 21300000, guid: 169dad00bd394154caa2d2bc38005afc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
 --- !u!224 &922190202 stripped
@@ -632,7 +632,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: -1532404174, guid: 65f1c4ea56536d644b5c4d81715c3ede, type: 3}
+      objectReference: {fileID: 21300000, guid: 15afaeed4b801ed479a0d99d9c113e8c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
 --- !u!224 &1161011209 stripped
@@ -836,6 +836,6 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerSmallSprite
       value: 
-      objectReference: {fileID: 21300000, guid: e5bd43cd6badfc9448aeeb9fe44593b9, type: 3}
+      objectReference: {fileID: 21300000, guid: 169dad00bd394154caa2d2bc38005afc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
