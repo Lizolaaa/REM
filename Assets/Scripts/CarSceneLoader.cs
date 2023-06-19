@@ -6,9 +6,11 @@ namespace Game {
 
 		[SerializeField] private CSceneField _nextScene;
 		[SerializeField] private string _carMessage;
-		
 
-		
+
+		public void LoadScene() {
+			GameScenesCarTransition.get.LoadCarScene(_carMessage, this._nextScene);
+		}
 		
 		public void LoadPericiaScene() {
 			GameScenesCarTransition.get.LoadCarScene(_carMessage, this._nextScene);
