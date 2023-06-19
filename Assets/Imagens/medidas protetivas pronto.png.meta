@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4f6dc4a762386644a5fc5f319fb7487
+guid: 9daa5d7747d1c5440812ad28184786ac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xE3o pequeno certo cinza_0"
+      name: medidas protetivas pronto_0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 358
-        width: 494
-        height: 446
+        x: 347
+        y: 119
+        width: 1090
+        height: 844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ee6f975ca7573f48bc825e2584cabd6
-      internalID: -966851076
+      spriteID: e8d16e53d8470524aaccdbe7343842e3
+      internalID: -679272814
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Bot\xE3o pequeno certo cinza_0": -966851076
+      medidas protetivas pronto_0: -679272814
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
