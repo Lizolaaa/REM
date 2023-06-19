@@ -463,8 +463,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad:
-    sceneAsset: {fileID: 102900000, guid: bd818f7f8719dfd41bbea650f1048b79, type: 3}
-    sceneName: Level 1 - Telefone tocando
+    sceneAsset: {fileID: 102900000, guid: 2c46e39d69a540e42952d420e60b624d, type: 3}
+    sceneName: Level 1 - Inicio 1
   loadIfAlreadyLoaded: 0
   loadSceneMode: 0
   enableSceneOnLoad: 1
