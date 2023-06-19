@@ -20,7 +20,8 @@ namespace Game.Interrogatorio {
 
 		private static List<Depoimento> AllDepoimentos = new List<Depoimento>();
 
-		
+		[SerializeField] private DepoimentoItem _templateDepoimentoItem;
+		[SerializeField] private Transform _parentDepoimentos;
 		
 		#endregion <<---------- Properties and Fields ---------->>
 
@@ -51,10 +52,26 @@ namespace Game.Interrogatorio {
 		#region <<---------- Mono Behaviour ---------->>
 		
 		private void Awake() {
-			
+			this._templateDepoimentoItem.gameObject.SetActive(false);
+			SpawnDepoimentos();
 		}
 		
 		#endregion <<---------- Mono Behaviour ---------->>
+
+
+
+		#region <<---------- General ---------->>
+
+		public void SpawnDepoimentos() {
+			foreach (var d in AllDepoimentos) {
+				var instD = Instantiate(_templateDepoimentoItem, _parentDepoimentos);
+				instD.Initialize(d);
+			}
+			AllDepoimentos.Clear();
+		}
+
+		#endregion <<---------- General ---------->>
+
 		
 	}
 }
