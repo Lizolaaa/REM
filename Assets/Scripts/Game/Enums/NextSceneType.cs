@@ -1,5 +1,8 @@
-﻿namespace Game.Enums {
+﻿using System;
+
+namespace Game.Enums {
+	[Obsolete]
 	public enum NextSceneType {
-		none, carToCrime, carToPericia
+		none, carToCrime, carToPericia, carToDelegacia
 	}
 }
