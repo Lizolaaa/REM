@@ -1,6 +1,7 @@
-using System;
 using CDK;
 using System.Collections;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,8 +24,7 @@ public class GameScenesCarTransition : MonoBehaviour {
     
     #region <<---------- Properties and Fields ---------->>
 
-    public const string CrimeSceneName = "SceneCarTransition - To crime scene";
-    public const string PericiaSceneName = "SceneCarTransition - To pericia scene";
+    public const string CarTransitionSceneName = "SceneCarTransition";
     int WaitTime = 5;
 
     #endregion <<---------- Properties and Fields ---------->>
@@ -45,17 +45,17 @@ public class GameScenesCarTransition : MonoBehaviour {
 
     #region <<---------- General ---------->>
 
-    public void LoadCrimeScene(CSceneField nextScene) {
-        StartCoroutine(WaitThenLoadScene(true, nextScene));
+    public void LoadCarScene(string mensagem, CSceneField nextScene) {
+        StartCoroutine(WaitThenLoadScene(mensagem, nextScene));
     }
 
-    public void LoadPericiaScene(CSceneField nextScene) {
-        StartCoroutine(WaitThenLoadScene(false, nextScene));
-    }
-
-    private IEnumerator WaitThenLoadScene(bool crimeScene, CSceneField nextScene) {
-        SceneManager.LoadScene(crimeScene ? CrimeSceneName : PericiaSceneName, LoadSceneMode.Single);
-        yield return new WaitForSeconds(WaitTime);
+    private IEnumerator WaitThenLoadScene(string mensagem, CSceneField nextScene) {
+        if (mensagem.CIsNotNullOrWhitespace()) {
+            SceneManager.LoadScene(CarTransitionSceneName, LoadSceneMode.Single);
+            var txt = GameObject.FindObjectsOfType<TextMeshProUGUI>().First(t => t.name == "Text - A caminho");
+            txt.text = mensagem;
+            yield return new WaitForSeconds(WaitTime);
+        }
         SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
     }
 

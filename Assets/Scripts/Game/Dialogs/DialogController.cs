@@ -3,14 +3,15 @@ using CDK;
 using Game.Dialogs;
 using Game.Enums;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Game {
 	public class DialogController : MonoBehaviour {
 		
 		[SerializeField] private CSceneField _nextScene;
-		[SerializeField] private NextSceneType _nextSceneType;
+		[SerializeField] private string _carMessage;
 		
+		[Header("O valor do campo abaixo nao eh mais usado, foi mantido pra referencia do campo 'Car message'"), SerializeField, Obsolete] private NextSceneType _nextSceneType;
+
 		private Dialog[] AllDialogs;
 
 		
@@ -39,18 +40,7 @@ namespace Game {
 
 
 		private void DialogsEnded() {
-			switch (this._nextSceneType) {
-				case NextSceneType.carToCrime:
-					GameScenesCarTransition.get.LoadCrimeScene(_nextScene);
-					break;
-				case NextSceneType.carToPericia:
-					GameScenesCarTransition.get.LoadPericiaScene(_nextScene);
-					break;
-				default:
-					SceneManager.LoadScene(_nextScene);
-					break;
-			}
-			
+			GameScenesCarTransition.get.LoadCarScene(this._carMessage, _nextScene);
 		}
 		
 	}

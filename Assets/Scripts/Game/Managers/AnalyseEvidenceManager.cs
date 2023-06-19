@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using CDK;
 using UniRx;
 using UnityEngine;
@@ -13,9 +12,12 @@ namespace Game {
 		[SerializeField] private Button _buttonFinish;
 		[SerializeField] private CSceneField _nextScene;
 		[SerializeField] private UnityEvent _completed;
+		[SerializeField] private string _carMessage;
+		
 
 		
 		private void Awake() {
+			_buttonFinish.gameObject.SetActive(false);
 			var allPossibleEvidences = this.GetComponentsInChildren<TableEvidenceItem>();
 			foreach (var ev in allPossibleEvidences) {
 				ev.gameObject.SetActive(false);
@@ -29,7 +31,7 @@ namespace Game {
 			this._evidencesToClick = collectedEvidences.Count();
 			
 			this._buttonFinish.OnClickAsObservable().TakeUntilDestroy(this).Subscribe(_ => {
-				GameScenesCarTransition.get.LoadPericiaScene(_nextScene);
+				GameScenesCarTransition.get.LoadCarScene(_carMessage, _nextScene);
 			});
 		}
 
@@ -40,6 +42,7 @@ namespace Game {
 
 		private void CheckForCompletion() {
 			if (this._evidencesToClick > 0) return;
+			_buttonFinish.gameObject.SetActive(true);
 			_completed?.Invoke();
 		}
 	}
