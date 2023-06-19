@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 1734074927}
   - component: {fileID: 1734074926}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text - A caminho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Indo para cena do crime
+  m_text: A caminho
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_sharedMaterial: {fileID: -4118184781521128697, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
