@@ -14,6 +14,7 @@ namespace Game {
 
 		private Dialog[] AllDialogs;
 
+		private AudioSource _audioSource;
 		
 		
 		
@@ -23,6 +24,9 @@ namespace Game {
 				d.gameObject.SetActive(false);
 			}
 			AllDialogs[0].gameObject.SetActive(true);
+
+			this._audioSource = this.CGetOrAddComponent<AudioSource>();
+			this._audioSource.spatialize = false;
 		}
 
 		public void NextDialog() {
@@ -33,7 +37,12 @@ namespace Game {
 					return;
 				}
 				AllDialogs[i].gameObject.SetActive(false);
-				AllDialogs[i + 1].ShowDialog();
+				var audio = AllDialogs[i + 1].ShowDialog();
+				if (audio != null) {
+					this._audioSource.Stop();
+					this._audioSource.clip = audio;
+					this._audioSource.Play();
+				}
 				return;
 			}
 		}
@@ -41,6 +50,7 @@ namespace Game {
 
 		private void DialogsEnded() {
 			GameScenesCarTransition.get.LoadCarScene(this._carMessage, _nextScene);
+			this._audioSource.Stop();
 		}
 		
 	}

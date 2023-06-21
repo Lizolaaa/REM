@@ -17,7 +17,8 @@ namespace Game.Dialogs {
 		[SerializeField] private TextMeshProUGUI _textDialog;
 		[SerializeField] private Image _speakerBigImage;
 		[SerializeField] private Image _speakerSmallImage;
-
+		[SerializeField] private AudioClip _audio;
+		
 		
 		
 		private void Awake() {
@@ -30,11 +31,13 @@ namespace Game.Dialogs {
 			this._speakerSmallImage.sprite = this._speakerSmallSprite;
 		}
 
-		public void ShowDialog() {
+		public AudioClip ShowDialog() {
 			this.gameObject.SetActive(true);
 			if (this._textDialog.TryGetComponent<DOTweenAnimation>(out var a)) {
 				a.DOPlay();
 			}
+
+			return this._audio;
 		}
 
 		public void NextDialog() {
