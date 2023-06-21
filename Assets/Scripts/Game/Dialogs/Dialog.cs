@@ -17,6 +17,7 @@ namespace Game.Dialogs {
 		[SerializeField] private TextMeshProUGUI _textDialog;
 		[SerializeField] private Image _speakerBigImage;
 		[SerializeField] private Image _speakerSmallImage;
+		public AudioClip GetAudio => this._audio; 
 		[SerializeField] private AudioClip _audio;
 		
 		
