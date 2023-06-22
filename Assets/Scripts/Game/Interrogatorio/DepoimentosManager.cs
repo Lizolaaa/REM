@@ -37,18 +37,17 @@ namespace Game.Interrogatorio {
 		#region <<---------- Static ---------->>
 
 		public static void AddDepoimento(string personName, string depoimentoText) {
-			personName = personName.Trim().ToLower();
-			var depoimento = AllDepoimentos.FirstOrDefault(d => d.Pessoa == personName);
+		
+			var depoimento = AllDepoimentos.FirstOrDefault(d => d.Pessoa.Trim().ToLower() == personName.Trim().ToLower());
 			if (depoimento == null) {
 				depoimento = new Depoimento(personName);
-			}
-			depoimento.Depoimentos.Add(depoimentoText);
+				AllDepoimentos.Add(depoimento);
+            }
+            depoimento.Depoimentos.Add(depoimentoText);
+			Debug.Log(depoimento.Pessoa);
 		}
 
-		public static void ClearAllDepoimentos() {
-			Debug.Log("Todos os depoimentos zerados!");
-			AllDepoimentos.Clear();
-		}
+		
 		
 		#endregion <<---------- Static ---------->>
 
@@ -60,6 +59,7 @@ namespace Game.Interrogatorio {
 		private void Awake() {
 			this._templateDepoimentoItem.gameObject.SetActive(false);
 			SpawnDepoimentos();
+			Debug.Log(_numberOfDepoimentos);
 		}
 		
 		#endregion <<---------- Mono Behaviour ---------->>
