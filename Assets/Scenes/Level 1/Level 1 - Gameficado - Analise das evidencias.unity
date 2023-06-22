@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 460273516}
   - component: {fileID: 460273515}
   - component: {fileID: 460273514}
+  - component: {fileID: 460273517}
   m_Layer: 5
   m_Name: medida protetiva
   m_TagString: Untagged
@@ -991,6 +992,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460273512}
   m_CullTransparentMesh: 1
+--- !u!114 &460273517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460273512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: cec4ecef1b5a613438cf9dd52ba946ef, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &463633400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1019,7 @@ GameObject:
   - component: {fileID: 463633404}
   - component: {fileID: 463633403}
   - component: {fileID: 463633402}
+  - component: {fileID: 463633405}
   m_Layer: 5
   m_Name: espelho
   m_TagString: Untagged
@@ -1127,6 +1144,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463633400}
   m_CullTransparentMesh: 1
+--- !u!114 &463633405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463633400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 1e7c414df57b33246858149e051ac4b8, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &473844228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,8 +1287,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1782438994, guid: 32a664b738cde57489e538d25bc86e27, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1933,6 +1965,7 @@ GameObject:
   - component: {fileID: 809700145}
   - component: {fileID: 809700144}
   - component: {fileID: 809700143}
+  - component: {fileID: 809700146}
   m_Layer: 5
   m_Name: celular
   m_TagString: Untagged
@@ -2057,6 +2090,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809700141}
   m_CullTransparentMesh: 1
+--- !u!114 &809700146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809700141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: c3ff792464be7eb459548e286dd8a7e1, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &812120615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2117,7 @@ GameObject:
   - component: {fileID: 812120619}
   - component: {fileID: 812120618}
   - component: {fileID: 812120617}
+  - component: {fileID: 812120620}
   m_Layer: 5
   m_Name: analgesicos
   m_TagString: Untagged
@@ -2192,6 +2241,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812120615}
   m_CullTransparentMesh: 1
+--- !u!114 &812120620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812120615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: bf9b082729929dc4d9d3368ba48b9919, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &921921758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,8 +2521,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1782438994, guid: 32a664b738cde57489e538d25bc86e27, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3424,6 +3488,7 @@ GameObject:
   - component: {fileID: 2048274204}
   - component: {fileID: 2048274203}
   - component: {fileID: 2048274202}
+  - component: {fileID: 2048274205}
   m_Layer: 5
   m_Name: buque
   m_TagString: Untagged
@@ -3548,6 +3613,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048274200}
   m_CullTransparentMesh: 1
+--- !u!114 &2048274205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048274200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 11a981a4f664b704288db04dc6041c1b, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1001 &2055754402
 PrefabInstance:
   m_ObjectHideFlags: 0

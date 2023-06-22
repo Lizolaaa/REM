@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 71882762}
   - component: {fileID: 71882761}
   - component: {fileID: 71882760}
+  - component: {fileID: 71882763}
   m_Layer: 5
   m_Name: CarregarNivel
   m_TagString: Untagged
@@ -315,6 +316,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71882758}
   m_CullTransparentMesh: 1
+--- !u!114 &71882763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71882758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &427878243
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +494,7 @@ GameObject:
   - component: {fileID: 672805947}
   - component: {fileID: 672805946}
   - component: {fileID: 672805945}
+  - component: {fileID: 672805948}
   m_Layer: 5
   m_Name: Creditos
   m_TagString: Untagged
@@ -602,6 +617,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672805943}
   m_CullTransparentMesh: 1
+--- !u!114 &672805948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672805943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &732116845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1121,7 @@ GameObject:
   - component: {fileID: 1209943194}
   - component: {fileID: 1209943193}
   - component: {fileID: 1209943196}
+  - component: {fileID: 1209943197}
   m_Layer: 5
   m_Name: NovoJogo
   m_TagString: Untagged
@@ -1231,6 +1260,19 @@ MonoBehaviour:
     sceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
     sceneName: Level 1 - Intro Cutscene
   _carMessage: 
+--- !u!114 &1209943197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209943191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1583717245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,6 +1638,7 @@ GameObject:
   - component: {fileID: 1739953277}
   - component: {fileID: 1739953276}
   - component: {fileID: 1739953275}
+  - component: {fileID: 1739953278}
   m_Layer: 5
   m_Name: voltar
   m_TagString: Untagged
@@ -1699,8 +1742,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1203153189, guid: cd6372e305d566a48bff1c94824cb77d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1717,6 +1760,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739953273}
   m_CullTransparentMesh: 1
+--- !u!114 &1739953278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739953273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1757646221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,6 +2190,7 @@ GameObject:
   - component: {fileID: 1813001360}
   - component: {fileID: 1813001359}
   - component: {fileID: 1813001358}
+  - component: {fileID: 1813001361}
   m_Layer: 5
   m_Name: Sair
   m_TagString: Untagged
@@ -2256,6 +2313,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813001356}
   m_CullTransparentMesh: 1
+--- !u!114 &1813001361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813001356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1907290171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2418,7 @@ GameObject:
   - component: {fileID: 1947188592}
   - component: {fileID: 1947188591}
   - component: {fileID: 1947188590}
+  - component: {fileID: 1947188593}
   m_Layer: 5
   m_Name: Voltar
   m_TagString: Untagged
@@ -2451,8 +2522,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1203153189, guid: cd6372e305d566a48bff1c94824cb77d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2469,6 +2540,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947188588}
   m_CullTransparentMesh: 1
+--- !u!114 &1947188593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947188588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &2142557383
 GameObject:
   m_ObjectHideFlags: 0
