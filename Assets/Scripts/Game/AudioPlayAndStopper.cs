@@ -5,6 +5,8 @@ namespace Game {
 
 		[SerializeField] private AudioClip _audioClip;
 		private AudioSource _audioSource;
+		[SerializeField] private bool _loop;
+		
 
 		
 		
@@ -14,6 +16,7 @@ namespace Game {
 			this._audioSource = this.gameObject.AddComponent<AudioSource>();
 			this._audioSource.spatialize = false;
 			this._audioSource.clip = _audioClip;
+			this._audioSource.loop = _loop;
 			this._audioSource.Play();
 		}
 
