@@ -344,11 +344,11 @@ RectTransform:
   m_Father: {fileID: 260768920}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0013533, y: 375.264}
-  m_SizeDelta: {x: 1015, y: 149.473}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -61}
+  m_SizeDelta: {x: 0, y: 149.47302}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &277562499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,8 +369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Em alguns meses, o julgamento aconteceu,\napontando Carlos como culpado.
-    \n"
+  m_text: Sem ter considerado nenhuma parte dos depoimentos revelante para o caso
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_sharedMaterial: {fileID: -4118184781521128697, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
@@ -433,7 +432,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 233.94083, y: 0, z: 191.4935, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -459,6 +458,7 @@ GameObject:
   - component: {fileID: 462668387}
   - component: {fileID: 462668386}
   - component: {fileID: 462668385}
+  - component: {fileID: 462668388}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -580,6 +580,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462668383}
   m_CullTransparentMesh: 1
+--- !u!114 &462668388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462668383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &804161516
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,8 +691,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad:
-    sceneAsset: {fileID: 102900000, guid: af13520d2db977c4b9ebc0deddfe2689, type: 3}
-    sceneName: Level 2 - Inicio 2
+    sceneAsset: {fileID: 102900000, guid: 692b1a6625355904e8928ddbc780044e, type: 3}
+    sceneName: Menu
   loadIfAlreadyLoaded: 0
   loadSceneMode: 0
   enableSceneOnLoad: 1
@@ -764,7 +777,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voc\xEA conseguiu livrar Mai de seu agressor!"
+  m_text: "Ningu\xE9m foi condenado pelo juri."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_sharedMaterial: {fileID: -4118184781521128697, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
@@ -876,7 +889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -38}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -904.572, y: -508.939}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949401367
@@ -899,7 +912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8a3235051c6e734e8390f04335a8040, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e107d1012550b54cb298101283f7594, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

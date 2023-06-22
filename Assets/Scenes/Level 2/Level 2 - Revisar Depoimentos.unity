@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 19514354}
   - component: {fileID: 19514353}
   - component: {fileID: 19514356}
+  - component: {fileID: 19514357}
   m_Layer: 5
   m_Name: Button End
   m_TagString: Untagged
@@ -274,6 +275,19 @@ MonoBehaviour:
     sceneAsset: {fileID: 102900000, guid: 5bdef83697c839b448731e876723b8a2, type: 3}
     sceneName: Level 2 - Novel - Escolher Culpado
   _carMessage: 
+--- !u!114 &19514357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19514351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &169035454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,6 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216331316}
   - component: {fileID: 1216331315}
+  - component: {fileID: 1216331317}
   m_Layer: 0
   m_Name: Depoimentos Manager
   m_TagString: Untagged
@@ -1364,6 +1379,21 @@ MonoBehaviour:
   _onClickedOnAllDepoimentos:
     m_PersistentCalls:
       m_Calls: []
+  _onNenhumDepoimentoColetado:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1216331317}
+        m_TargetAssemblyTypeName: Game.CarSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1216331316
 Transform:
   m_ObjectHideFlags: 0
@@ -1379,6 +1409,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216331317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216331314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8f6dd3e25d4b938fcd7b8cbf780bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nextScene:
+    sceneAsset: {fileID: 102900000, guid: ec62766743d73f04a9d8e9787fd9d81c, type: 3}
+    sceneName: Level 2 - Novel - Preso 1
+  _carMessage: 
 --- !u!1 &1528937643
 GameObject:
   m_ObjectHideFlags: 0
