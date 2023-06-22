@@ -325,6 +325,7 @@ MonoBehaviour:
   _nextScene:
     sceneAsset: {fileID: 102900000, guid: 7c82b61f06df41d449477e44110b7c52, type: 3}
     sceneName: Level 1 - Gameficado - Investigacao
+  _carMessage: 
   _nextSceneType: 0
 --- !u!1 &804161516
 GameObject:
@@ -574,6 +575,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 705c00d23b08d77449ad1eb04589321e, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Ol\xE1 Detetive! Aqui \xE9 a casa da v\xEDtima onde a agress\xE3o aconteceu,

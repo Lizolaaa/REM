@@ -497,6 +497,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f79bec1fce865946933e3f9c21f4b74, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "\xC9 claro! \xC9 claro, j\xE1 deixei tudo pronto, venha ver."
       objectReference: {fileID: 0}
@@ -618,6 +622,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 50555858221b1864a95c8bdd4de507a2, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: Nicolas, por favor, temos trabalho a fazer!
@@ -821,6 +829,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 1417f84105cb7d84a8fc5f4e0233efa1, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Detetive Diana! Como voc\xEA est\xE1? Andou vendo a policial \xC2ngela

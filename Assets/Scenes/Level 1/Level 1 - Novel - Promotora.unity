@@ -330,6 +330,7 @@ MonoBehaviour:
   _nextScene:
     sceneAsset: {fileID: 102900000, guid: d1013457c1b428c4893573102a48ef05, type: 3}
     sceneName: Level 1 - Gameficado - Quiz
+  _carMessage: 
   _nextSceneType: 0
 --- !u!1 &381854311
 GameObject:
@@ -570,6 +571,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: f0677b3a0cd27a94ea3bf3aa5af493d9, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Sim, coletei tudo que pude. Acabei de conversar com o perito Nicolas.
         As an\xE1lises trouxeram resultados bem interessantes. D\xEA uma olhada."
@@ -696,6 +701,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 17c9fc496d3dc5e4c8070b2cd8a8d9d6, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Claro! Fa\xE7o isso em um instante, voc\xEA tem um modelo aqui, correto?
@@ -827,6 +836,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 359c8c086bed65d45b2206214c6c4457, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Sim, aqui est\xE1! "
@@ -1021,6 +1034,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 273c5d262cce1944288fcf71742418e5, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Perfeito, vejo que tem quase tudo aqui, \xF3timo trabalho detetive.
@@ -1770,6 +1787,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 8edb5fc6f0b6c224883e4dfb1c4c813e, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Bom dia Diana! Tudo \xF3timo por aqui! \nconseguiu todas as provas?"
       objectReference: {fileID: 0}
@@ -1895,6 +1916,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: c93def00f9fc4c04f88f118e209fefea, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Bom dia Promotora Leandra, como est\xE1?"

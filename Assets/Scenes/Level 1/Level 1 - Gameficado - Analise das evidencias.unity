@@ -677,6 +677,7 @@ MonoBehaviour:
   _completed:
     m_PersistentCalls:
       m_Calls: []
+  _carMessage: 
 --- !u!1 &400295444
 GameObject:
   m_ObjectHideFlags: 0

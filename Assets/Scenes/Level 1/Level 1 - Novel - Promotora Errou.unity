@@ -325,6 +325,7 @@ MonoBehaviour:
   _nextScene:
     sceneAsset: {fileID: 102900000, guid: d1013457c1b428c4893573102a48ef05, type: 3}
     sceneName: Level 1 - Gameficado - Quiz
+  _carMessage: 
   _nextSceneType: 0
 --- !u!1 &804161516
 GameObject:
@@ -578,6 +579,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ae44435d9e05c44e9e755cfb6bb8144, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Bom\u2026 tem algum erro aqui. As informa\xE7\xF5es precisam estar
