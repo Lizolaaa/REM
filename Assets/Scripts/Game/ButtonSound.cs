@@ -6,6 +6,7 @@ using UnityEngine.UI;
 namespace Game {
 	
 	[RequireComponent(typeof(Button))]
+	[DisallowMultipleComponent]
 	public class ButtonSound : MonoBehaviour {
 
 		[SerializeField] private ButtonSoundData _soundData;
