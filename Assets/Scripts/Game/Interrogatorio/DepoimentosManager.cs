@@ -24,10 +24,10 @@ namespace Game.Interrogatorio {
 		[SerializeField] private DepoimentoItem _templateDepoimentoItem;
 		[SerializeField] private Transform _parentDepoimentos;
 
-		private int _numberOfDepoimentos;
 		private HashSet<DepoimentoItem> _clickedDepoimentos = new HashSet<DepoimentoItem>();
 
 		[SerializeField] private UnityEvent _onClickedOnAllDepoimentos;
+		[SerializeField] private UnityEvent _onNenhumDepoimentoColetado;
 
 		#endregion <<---------- Properties and Fields ---------->>
 
@@ -37,7 +37,6 @@ namespace Game.Interrogatorio {
 		#region <<---------- Static ---------->>
 
 		public static void AddDepoimento(string personName, string depoimentoText) {
-		
 			var depoimento = AllDepoimentos.FirstOrDefault(d => d.Pessoa.Trim().ToLower() == personName.Trim().ToLower());
 			if (depoimento == null) {
 				depoimento = new Depoimento(personName);
@@ -47,7 +46,11 @@ namespace Game.Interrogatorio {
 			Debug.Log(depoimento.Pessoa);
 		}
 
-		
+		public static void ClearAllDepoimentos() {
+			if (AllDepoimentos.Count <= 0) return;
+			Debug.Log($"{AllDepoimentos.Count} depoimentos apagados!");
+			AllDepoimentos.Clear();
+		}
 		
 		#endregion <<---------- Static ---------->>
 
@@ -58,13 +61,17 @@ namespace Game.Interrogatorio {
 		
 		private void Awake() {
 			this._templateDepoimentoItem.gameObject.SetActive(false);
+			if (AllDepoimentos.Count <= 0) {
+				_onNenhumDepoimentoColetado?.Invoke();
+				return;
+			}
 			SpawnDepoimentos();
-			Debug.Log(_numberOfDepoimentos);
 		}
 		
 		#endregion <<---------- Mono Behaviour ---------->>
 
 
+		
 
 		#region <<---------- General ---------->>
 
@@ -73,19 +80,16 @@ namespace Game.Interrogatorio {
 				var instD = Instantiate(_templateDepoimentoItem, _parentDepoimentos);
 				instD.Initialize(d, OnClickDepoimentoFolder);
 			}
-			this._numberOfDepoimentos = AllDepoimentos.Count;
-			AllDepoimentos.Clear();
 			_clickedDepoimentos.Clear();
 		}
 
 		private void OnClickDepoimentoFolder(DepoimentoItem obj) {
 			if (!this._clickedDepoimentos.Add(obj)) return;
-			if (this._clickedDepoimentos.Count < this._numberOfDepoimentos) return;
+			if (this._clickedDepoimentos.Count < AllDepoimentos.Count) return;
 			_onClickedOnAllDepoimentos?.Invoke();
 		}
 		
 		#endregion <<---------- General ---------->>
-
 		
 	}
 }
