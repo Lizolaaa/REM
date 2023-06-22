@@ -1,5 +1,4 @@
-﻿using System;
-using CDK;
+﻿using CDK;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,12 +16,10 @@ namespace Game {
 		
 		private void Awake() {
 			_button = this.GetComponent<Button>();
-		}
-
-		private void OnEnable() {
-			_button.OnClickAsObservable().TakeUntilDisable(this).Subscribe(_ => {
+			_button.OnClickAsObservable().Subscribe(_ => {
 				CSoundManager.get.PlayOneShot(_soundData.ButtonSound, _soundData.ButtonSoundVolume);
 			});
 		}
+		
 	}
 }
