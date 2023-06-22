@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 55124190}
   - component: {fileID: 55124189}
   - component: {fileID: 55124191}
+  - component: {fileID: 55124192}
   m_Layer: 5
   m_Name: porta p cozinha
   m_TagString: Untagged
@@ -268,6 +269,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &55124192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55124187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &159150898
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +471,7 @@ GameObject:
   - component: {fileID: 258030984}
   - component: {fileID: 258030983}
   - component: {fileID: 258030982}
+  - component: {fileID: 258030986}
   m_Layer: 5
   m_Name: Button Next Screen
   m_TagString: Untagged
@@ -566,6 +581,19 @@ RectTransform:
   m_AnchoredPosition: {x: -27, y: 19}
   m_SizeDelta: {x: 125.942, y: 111.712}
   m_Pivot: {x: 1, y: 0}
+--- !u!114 &258030986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258030981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &260768916
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +938,7 @@ GameObject:
   - component: {fileID: 396510191}
   - component: {fileID: 396510190}
   - component: {fileID: 396510189}
+  - component: {fileID: 396510192}
   m_Layer: 5
   m_Name: porta p sala.1
   m_TagString: Untagged
@@ -1043,6 +1072,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396510187}
   m_CullTransparentMesh: 1
+--- !u!114 &396510192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396510187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &426711251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1097,7 @@ GameObject:
   - component: {fileID: 426711254}
   - component: {fileID: 426711253}
   - component: {fileID: 426711255}
+  - component: {fileID: 426711256}
   m_Layer: 5
   m_Name: porta p quarto
   m_TagString: Untagged
@@ -1188,6 +1231,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &426711256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426711251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &607045253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1256,7 @@ GameObject:
   - component: {fileID: 607045257}
   - component: {fileID: 607045256}
   - component: {fileID: 607045255}
+  - component: {fileID: 607045258}
   m_Layer: 5
   m_Name: porta p sala.3
   m_TagString: Untagged
@@ -1333,6 +1390,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607045253}
   m_CullTransparentMesh: 1
+--- !u!114 &607045258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607045253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &647948705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,6 +2096,7 @@ GameObject:
   - component: {fileID: 917338185}
   - component: {fileID: 917338184}
   - component: {fileID: 917338183}
+  - component: {fileID: 917338186}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2130,8 +2201,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1782438994, guid: 32a664b738cde57489e538d25bc86e27, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2148,6 +2219,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917338181}
   m_CullTransparentMesh: 1
+--- !u!114 &917338186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917338181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &943430407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2244,7 @@ GameObject:
   - component: {fileID: 943430410}
   - component: {fileID: 943430409}
   - component: {fileID: 943430411}
+  - component: {fileID: 943430412}
   m_Layer: 5
   m_Name: porta p banheiro
   m_TagString: Untagged
@@ -2293,6 +2378,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &943430412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943430407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &975394394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2459,7 @@ GameObject:
   - component: {fileID: 1037282749}
   - component: {fileID: 1037282748}
   - component: {fileID: 1037282747}
+  - component: {fileID: 1037282750}
   m_Layer: 5
   m_Name: porta p quarto 2
   m_TagString: Untagged
@@ -2494,6 +2593,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037282745}
   m_CullTransparentMesh: 1
+--- !u!114 &1037282750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037282745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1179520742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,6 +2753,7 @@ GameObject:
   - component: {fileID: 1281155257}
   - component: {fileID: 1281155256}
   - component: {fileID: 1281155258}
+  - component: {fileID: 1281155259}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2751,6 +2864,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1281155259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281155254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1497049668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3193,7 +3319,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

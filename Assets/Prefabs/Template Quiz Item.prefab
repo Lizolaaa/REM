@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8007373467254763153}
   - component: {fileID: 8007373467254763152}
   - component: {fileID: 8007373467254763155}
+  - component: {fileID: 9084658669495385184}
   m_Layer: 5
   m_Name: Template Quiz Item
   m_TagString: Untagged
@@ -159,6 +160,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9084658669495385184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007373467254763158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &8007373467433769235
 GameObject:
   m_ObjectHideFlags: 0

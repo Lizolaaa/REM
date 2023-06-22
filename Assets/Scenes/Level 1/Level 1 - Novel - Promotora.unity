@@ -399,8 +399,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1074,6 +1074,7 @@ GameObject:
   - component: {fileID: 967391224}
   - component: {fileID: 967391223}
   - component: {fileID: 967391222}
+  - component: {fileID: 967391225}
   m_Layer: 5
   m_Name: button.relatorio
   m_TagString: Untagged
@@ -1188,6 +1189,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967391220}
   m_CullTransparentMesh: 1
+--- !u!114 &967391225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967391220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &995653307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1214,7 @@ GameObject:
   - component: {fileID: 995653311}
   - component: {fileID: 995653310}
   - component: {fileID: 995653309}
+  - component: {fileID: 995653312}
   m_Layer: 5
   m_Name: Button.1
   m_TagString: Untagged
@@ -1322,6 +1337,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995653307}
   m_CullTransparentMesh: 1
+--- !u!114 &995653312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995653307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!114 &1156551792 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
@@ -1345,6 +1373,7 @@ GameObject:
   - component: {fileID: 1686885654}
   - component: {fileID: 1686885653}
   - component: {fileID: 1686885652}
+  - component: {fileID: 1686885655}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1449,8 +1478,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1782438994, guid: 32a664b738cde57489e538d25bc86e27, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1467,6 +1496,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686885650}
   m_CullTransparentMesh: 1
+--- !u!114 &1686885655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686885650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adfef92008844d9a66ad0f6a0e883ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundData: {fileID: 11400000, guid: 70b6847f62aa38b4daa5ff20b83b7dbe, type: 2}
 --- !u!1 &1720496472
 GameObject:
   m_ObjectHideFlags: 0
