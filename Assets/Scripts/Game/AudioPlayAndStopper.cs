@@ -6,6 +6,8 @@ namespace Game {
 		[SerializeField] private AudioClip _audioClip;
 		private AudioSource _audioSource;
 		[SerializeField] private bool _loop;
+		[SerializeField, Range(0f,1f)] private float _volume = 1f;
+		
 		
 
 		
@@ -17,6 +19,7 @@ namespace Game {
 			this._audioSource.spatialize = false;
 			this._audioSource.clip = _audioClip;
 			this._audioSource.loop = _loop;
+			this._audioSource.volume = _volume;
 			this._audioSource.Play();
 		}
 
