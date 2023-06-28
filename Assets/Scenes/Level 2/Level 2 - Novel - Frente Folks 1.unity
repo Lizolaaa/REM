@@ -2149,7 +2149,7 @@ MonoBehaviour:
   _textDialog: {fileID: 1523287253}
   _speakerBigImage: {fileID: 1254505266}
   _speakerSmallImage: {fileID: 1523287252}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: 21dc9cf3dcc18be4a994b42d90b1d2c6, type: 3}
 --- !u!1 &1031124286
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,7 +2351,7 @@ MonoBehaviour:
   _textDialog: {fileID: 1833443295}
   _speakerBigImage: {fileID: 2117100831}
   _speakerSmallImage: {fileID: 1833443294}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: 033e31d113d46c54c822def4a2a1398b, type: 3}
 --- !u!1 &1138970880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3930,7 +3930,7 @@ MonoBehaviour:
   _textDialog: {fileID: 792234348}
   _speakerBigImage: {fileID: 1523566909}
   _speakerSmallImage: {fileID: 792234347}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: 200023214e0f4ea4e871fdfb120551c8, type: 3}
 --- !u!1 &1973378511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4408,7 +4408,7 @@ MonoBehaviour:
   _textDialog: {fileID: 1150924616}
   _speakerBigImage: {fileID: 565973342}
   _speakerSmallImage: {fileID: 1150924615}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: faacefeebe83c604d9a5a74255982f0e, type: 3}
 --- !u!1 &2117100830
 GameObject:
   m_ObjectHideFlags: 0

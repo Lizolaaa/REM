@@ -370,8 +370,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Em alguns meses, o julgamento aconteceu, e\nn\xE3o foi nada f\xE1cil.
-    Mas com todas as provas apontando para Lucas, ele foi preso e condenado de  12
-    a 30 anos em regime fechado."
+    Mas com todas as provas apontando para Lucas, ele foi preso e condenado a 23
+    anos em regime fechado."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
   m_sharedMaterial: {fileID: -4118184781521128697, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 1949401366}
   - component: {fileID: 1949401368}
   - component: {fileID: 1949401367}
+  - component: {fileID: 1949401369}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -933,3 +934,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949401365}
   m_CullTransparentMesh: 1
+--- !u!114 &1949401369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949401365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 25433c93e1bbaa2479afb790f5eb7a52, type: 3}
+  _loop: 0
+  _volume: 0.279

@@ -2497,6 +2497,7 @@ GameObject:
   - component: {fileID: 185871149}
   - component: {fileID: 185871148}
   - component: {fileID: 185871147}
+  - component: {fileID: 185871150}
   m_Layer: 5
   m_Name: Novel - Dialogo.3
   m_TagString: Untagged
@@ -2637,6 +2638,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185871145}
   m_CullTransparentMesh: 1
+--- !u!114 &185871150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185871145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: a6897e4b98618db41928a3a4141ae7f1, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &196829678
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,6 +4841,7 @@ GameObject:
   - component: {fileID: 326380479}
   - component: {fileID: 326380478}
   - component: {fileID: 326380477}
+  - component: {fileID: 326380480}
   m_Layer: 5
   m_Name: Novel - Dialogo.6
   m_TagString: Untagged
@@ -4965,6 +4982,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326380474}
   m_CullTransparentMesh: 1
+--- !u!114 &326380480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326380474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 3dc26bdeb46011e41a1337db4b5ed8e3, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &335764348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,7 +5952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 0}
+  _audioClip: {fileID: 8300000, guid: 3e5f43efefe4ace48a6aee848b2d6680, type: 3}
   _loop: 0
   _volume: 1
 --- !u!114 &439988577
@@ -17716,7 +17748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Obrigada pelas informa\xE7\xF5es Dr. Fiz uma c\xF3pia do prontu\xE1rio
+  m_text: "Obrigada pelas informa\xE7\xF5es Doutora. Fiz uma c\xF3pia do prontu\xE1rio
     para anexar ao processo! \nVou entrar e conversar com Clara. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70d0113e0e2f8044e961d320f15a3cca, type: 2}
@@ -19939,6 +19971,7 @@ GameObject:
   - component: {fileID: 1639014727}
   - component: {fileID: 1639014726}
   - component: {fileID: 1639014725}
+  - component: {fileID: 1639014728}
   m_Layer: 5
   m_Name: Novel - Dialogo.2
   m_TagString: Untagged
@@ -20078,6 +20111,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639014723}
   m_CullTransparentMesh: 1
+--- !u!114 &1639014728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639014723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: f16bf0dde1aaf0c469d59ef8de0aa270, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &1654645066
 GameObject:
   m_ObjectHideFlags: 0
@@ -22215,6 +22263,7 @@ GameObject:
   - component: {fileID: 1861780246}
   - component: {fileID: 1861780245}
   - component: {fileID: 1861780244}
+  - component: {fileID: 1861780247}
   m_Layer: 5
   m_Name: Novel - Dialogo.8
   m_TagString: Untagged
@@ -22354,6 +22403,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861780242}
   m_CullTransparentMesh: 1
+--- !u!114 &1861780247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861780242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: e2a899d7bdaae4f46a9d2724072c07ae, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &1863956015
 GameObject:
   m_ObjectHideFlags: 0

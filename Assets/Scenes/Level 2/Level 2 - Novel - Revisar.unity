@@ -619,6 +619,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 7bb056eb8e2182f4183ae8f56029b03b, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Isso foi exaustivo. Acho melhor dar uma olhada no que tenho at\xE9
         agora! Algumas informa\xE7\xF5es n\xE3o batem, algo est\xE1 errado"

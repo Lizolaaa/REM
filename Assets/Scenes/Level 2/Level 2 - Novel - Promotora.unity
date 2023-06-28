@@ -569,7 +569,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _audio
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 46b7933a0024fd44780b99aef44896c1, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Promotora Leandra! \xC9 bom te ver! Tenho novidades sobre o caso de
@@ -705,7 +705,7 @@ PrefabInstance:
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _audio
       value: 
-      objectReference: {fileID: 8300000, guid: 359c8c086bed65d45b2206214c6c4457, type: 3}
+      objectReference: {fileID: 8300000, guid: 732ee14098b3284429093ad5fb2cd07d, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Detetive! Isso \xE9 \xF3timo, excelente trabalho novamente! S\xF3 vamos

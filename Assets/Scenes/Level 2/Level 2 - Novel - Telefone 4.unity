@@ -830,6 +830,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c85614b62d12d849979ce1d72184ed8, type: 3}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "Ol\xE1 Angela.. Como assim?"
       objectReference: {fileID: 0}
@@ -1299,7 +1303,7 @@ PrefabInstance:
         nada que ligasse ele ao crime. O DNA dele n\xE3o \xE9 compat\xEDvel com o
         encontrado no corpo da v\xEDtima e ele n\xE3o mentiu em seu depoimento, as
         c\xE2meras externas mostram ele l\xE1 fora com um amigo e logo depois indo
-        embora, \xE0s 2h30 da manh\xE3.."
+        embora, \xE0s 2h30 da manh\xE3."
       objectReference: {fileID: 0}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _speakerName
@@ -1462,6 +1466,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 8300000, guid: acb39fb7f6a655a4ba6e0c1c85adee3e, type: 3}
     - target: {fileID: 9053828091364137663, guid: 31e236e5281629b49b4ce002bbdb5d8f, type: 3}
       propertyPath: _dialog
       value: "De qualquer forma, obrigada pelo excelente servi\xE7o policial. Vou
@@ -2237,7 +2245,7 @@ MonoBehaviour:
   _textDialog: {fileID: 781304960713690310}
   _speakerBigImage: {fileID: 781304960803137037}
   _speakerSmallImage: {fileID: 781304959486577124}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: 95fe1849e6b89544fb1d48e13343aa49, type: 3}
 --- !u!114 &9083848213598744081
 MonoBehaviour:
   m_ObjectHideFlags: 0

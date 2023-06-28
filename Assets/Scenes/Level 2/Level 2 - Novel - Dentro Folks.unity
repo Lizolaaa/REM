@@ -430,6 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224438103}
   - component: {fileID: 224438104}
+  - component: {fileID: 224438105}
   m_Layer: 5
   m_Name: Novel - Dialogo.5
   m_TagString: Untagged
@@ -483,6 +484,21 @@ MonoBehaviour:
   _speakerBigImage: {fileID: 2036733418}
   _speakerSmallImage: {fileID: 1196451895}
   _audio: {fileID: 0}
+--- !u!114 &224438105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224438102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: a0883dc80c85e854392f107fb0daa4b3, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &249282805
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +838,7 @@ MonoBehaviour:
   _textDialog: {fileID: 477985921}
   _speakerBigImage: {fileID: 660936897}
   _speakerSmallImage: {fileID: 477985920}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: e9a558ac17f576643a69fcea6f29df01, type: 3}
 --- !u!1 &468944028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,7 +3084,7 @@ MonoBehaviour:
   _textDialog: {fileID: 737451091}
   _speakerBigImage: {fileID: 249282806}
   _speakerSmallImage: {fileID: 737451090}
-  _audio: {fileID: 0}
+  _audio: {fileID: 8300000, guid: c8a5d769a2e645e4ca533989cf71e754, type: 3}
 --- !u!1001 &1701432114
 PrefabInstance:
   m_ObjectHideFlags: 0

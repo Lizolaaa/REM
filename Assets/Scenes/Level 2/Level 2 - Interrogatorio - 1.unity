@@ -185,31 +185,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 17772398}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 17772396}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 202853592}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &17772398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3501,6 +3477,7 @@ GameObject:
   - component: {fileID: 235479124}
   - component: {fileID: 235479123}
   - component: {fileID: 235479122}
+  - component: {fileID: 235479125}
   m_Layer: 5
   m_Name: Novel - Dialogo.2
   m_TagString: Untagged
@@ -3640,6 +3617,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235479120}
   m_CullTransparentMesh: 1
+--- !u!114 &235479125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235479120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 9a094431317218a4eb60be9c3789de71, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &247631127
 GameObject:
   m_ObjectHideFlags: 0
@@ -13321,19 +13313,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1226403231}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 927680207}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1226403231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13709,31 +13689,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1247572039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1247572037}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 202853592}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1247572039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14335,6 +14291,7 @@ GameObject:
   - component: {fileID: 1389274085}
   - component: {fileID: 1389274084}
   - component: {fileID: 1389274083}
+  - component: {fileID: 1389274086}
   m_Layer: 5
   m_Name: Novel - Dialogo.16
   m_TagString: Untagged
@@ -14451,6 +14408,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389274081}
   m_CullTransparentMesh: 1
+--- !u!114 &1389274086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389274081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 9fdbb35c684e3e14ba910ca981007277, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &1433501933
 GameObject:
   m_ObjectHideFlags: 0
@@ -19025,31 +18997,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1895541034}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1895541031}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 172580358}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1895541034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19142,6 +19090,7 @@ GameObject:
   - component: {fileID: 1903644317}
   - component: {fileID: 1903644316}
   - component: {fileID: 1903644315}
+  - component: {fileID: 1903644318}
   m_Layer: 5
   m_Name: Novel - Dialogo.1
   m_TagString: Untagged
@@ -19281,6 +19230,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903644313}
   m_CullTransparentMesh: 1
+--- !u!114 &1903644318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903644313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068b6fdf8c7c4c26b500cf58d7a42ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 9be7f04f9ed4f2b43956b85a3358720e, type: 3}
+  _loop: 0
+  _volume: 1
 --- !u!1 &1904956466
 GameObject:
   m_ObjectHideFlags: 0
@@ -19955,7 +19919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eba15193fd411794492bf472f4dc41d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f7f4e890051b0341856229935cde295, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
